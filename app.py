@@ -12,7 +12,7 @@ load_dotenv()
 
 
 def send_mail(receiver_email, zip_path):
-    sender_email = "aash18ish@gmail.com"
+    sender_email = "aryan12sood@gmail.com"
     sender_password = os.getenv("APP_PASSWORD")
 
     message = EmailMessage()
@@ -82,3 +82,4 @@ if st.button("Submit"):
 
             if os.path.exists("mashup.zip"):
                 os.remove("mashup.zip")
+
